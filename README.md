@@ -1,0 +1,1 @@
+# sinatra-project-class-reg
