@@ -9,7 +9,8 @@ A teacher adds a child's name to the database once he/she is aware of the new st
 
 There is a possibility that there are unassigned children - maybe an office admin knew a child would attend, but didn't know his/her teacher at time of entry.  A teacher can also assign an unassigned child to his or her class.
 
-If there is an unassigned child come the new school term, someone's doing int wrong... ¯\_(ツ)_/¯
+If there is an unassigned child come the new school term, someone's doing int wrong... :grimacing:
+
 
 ## Install Instructions
 
