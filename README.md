@@ -2,7 +2,7 @@
 The names of new students trickle in the closer we get to a new school year; we need to keep track of them all! 
 Let's keep track of kids in a class, inclusive of:
 - the kids (otherwise, what's the point?)
-- a class of kids' teacher
+- the teachers
 
 ## Description
 A teacher adds a child's name to the database once he/she is aware of the new student.  These are little kids (primary school), so one teacher per a group of students is all that is necessary to teach daily lessons.  
