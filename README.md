@@ -5,9 +5,7 @@ Let's keep track of kids in a class, inclusive of:
 - a class of kids' teacher
 
 ## Description
-A teacher adds a child's name to the database once he/she is aware of the new student.  These are little kids (primary school) so, one teacher per a group of students is all that is necessary to teach daily lessons.  
-
-If there is an unassigned child come the new school term, someone's doing it wrong... :grimacing: 
+A teacher adds a child's name to the database once he/she is aware of the new student.  These are little kids (primary school), so one teacher per a group of students is all that is necessary to teach daily lessons.  
 
 
 ## Install Instructions
