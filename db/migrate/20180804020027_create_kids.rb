@@ -5,6 +5,6 @@ class CreateKids < ActiveRecord::Migration
   	create_table :kids do |k|
   		k.integer :kid_id
   		k.string :name
-  		
+  	end
   end
 end
