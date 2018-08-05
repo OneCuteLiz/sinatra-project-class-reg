@@ -5,10 +5,22 @@ class StudentsController < ApplicationController
       set :session_secret, "secret"
     end
 
-
-	get "/students" do
+    get "/start" do
+    	erb :"/index"
+	end	
+	
+	get "/students/:id" do
 		
 		erb :"/show"
 	end
+
+	post "/students" do
+
+		# @teacher = 
+
+		redirect :"/students/#{@teacher.id}"
+	end
+
+	
 
 end
