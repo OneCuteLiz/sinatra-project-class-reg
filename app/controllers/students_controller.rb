@@ -16,7 +16,8 @@ class StudentsController < ApplicationController
 
 	post "/students" do
 
-		# @teacher = 
+		@teacher = Teacher.find(param[:teacher])
+		#set @teacher.id to session.id ??
 
 		redirect :"/students/#{@teacher.id}"
 	end
