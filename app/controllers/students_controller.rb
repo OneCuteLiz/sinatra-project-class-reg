@@ -26,7 +26,17 @@ class StudentsController < ApplicationController
     	else
       		erb :error
     	end
+
 	end
+
+	get "/roster" do
+		if Helpers.is_logged_in?(session)
+      		@this_user = User.find(session[:user_id])
+      		erb :account
+    	else
+      		erb :error
+    	end
+	end 
 
 	
 
