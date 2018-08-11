@@ -39,5 +39,8 @@ class StudentsController < ApplicationController
 	end 
 
 	
-
+	get "/logout"
+		session.clear
+    	redirect "/"
+	end	
 end
